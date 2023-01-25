@@ -1,0 +1,143 @@
+html {
+    scroll-behavior: smooth;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main {
+    min-height: 100vh;
+    margin: 0;
+    background: url("images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+
+}
+.container {
+    background: white;
+    width: auto;
+    min-height: 50px;
+    margin: 0 auto;
+    font-size: 14px;
+    font-family: "Book Antiqua";
+}
+
+.container-top {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+}
+.container-top-left {
+    flex: 8;
+}
+
+.container-top-right{
+    flex: 1;
+}
+
+.border {
+    margin-left: 15px;
+    margin-right: 15px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-left: none;
+    border-right:none;
+}
+
+
+.top-aside {
+    height: 15px;
+    background: white;
+}
+.bottom-aside {
+    height: 15px;
+    background: white;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 10px;
+}
+
+
+.tab {
+    display: inline;
+    float: left;
+    border-right: 2px solid #bbb;
+}
+
+.tab a {
+    color: white;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Bookman Old Style";
+}
+
+.tab:last-child {
+    border-right: none;
+}
+.tab a:hover {
+    background-color: #111;
+}
+.tab a.active {
+    background-color: brown;
+    color: white;
+}
+
+.container-middle{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+}
+h2 {
+    text-align: center;
+}
+.left-section {
+    flex: 1;
+    padding: 20px 20px 20px 20px;
+    text-align: justify;
+}
+.delimiter {
+    border: none;
+    height: 1px;
+    background: #333;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.right-section {
+    flex: 1;
+}
+
+.container-bottom {
+    margin-top: 20px;
+    padding: 20px 20px 20px 20px;
+    text-align: justify;
+    width: 800px;
+}
+
+ul.science {
+    padding: 0;
+    margin-left: 10px;
+    list-style-type: circle;
+    list-style-position: inside;
+    background: #0c5460;
+}
+
+li.methods {
+    background: white;
+    padding: 40px 20px;
+    text-decoration: none;
+    border-right: none;
+
+}
+

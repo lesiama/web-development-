@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Реставрация и атрибуция картин</title>
+  <link rel="stylesheet" href="static/style.css">
+</head>
+
+
+<div class="container container-top">
+  <img src="static/images/logo.png" alt="" width="110" height="90"></img>
+  <div class="container container-top-left">
+    <aside class="top-aside"></aside>
+    <div class="border">
+      <br>
+      <h1>Реставрация картин</h1>
+      <br>
+    </div>
+    <aside class="bottom-aside"></aside>
+  </div>
+</div>
+
+<ul class="menu">
+  <li class="tab"><a href="art_methods.html">Искусствоведческие методы</a></li>
+  <li class="tab"><a href="science_methods.html">Естественнонаучные методы</a></li>
+  <li class="tab"><a href="digital_methods.html">Цифровые методы</a></li>
+  <li class="tab" style="float:right"><a class="active" href="index.html">Про реставрацию</a></li>
+</ul>
+
+{% block content %} {% endblock %}
+
+</html>
